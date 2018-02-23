@@ -25,3 +25,13 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+- Commands to create PWA -  Progressive Web App
+ng new angular-pwa-app --service-worker (initialize with Worker Service)
+ng build --prod (criar pasta dist)
+npm install -g http-server (instalar pacote para rodar em outro http)
+cd dist (chamar a pasta "dist")
+http-server -c-1 (debugar codigo)
+
+
+
